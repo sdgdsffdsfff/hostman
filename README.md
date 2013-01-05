@@ -18,7 +18,7 @@ Imagine that you have to jump to tens of linux servers via a trusted gateway, yo
 ## Installation
 HostMan depends on [urwid](http://excess.org/urwid/) python library. You can install urwid with the following commands:
 
-```
+```bash
 wget http://excess.org/urwid/urwid-1.1.1.tar.gz 
 tar zxf urwid-1.1.1.tar.gz 
 cd urwid-1.1.1
@@ -30,7 +30,7 @@ Then get the `hm` file from github, and put it on your `$PATH`.
 ## Configuration
 Configuate hostman like this:
 
-```
+```ini
 ;; user@gateway.host as sectioin
 [xiafei.qiuxf@login1.myhost.org]
 ;; hosts logon via this gateway
@@ -53,7 +53,7 @@ Put your config file at `$HOME/.hostman.ini`.
 * Press `enter` to visit the selected host.
 * Press `Ctrl + c` to exit.
 
-** Your're strongly recommend to open SSH channel bettwen your machina and the gates and target servers. **
+__Your're strongly recommend to open SSH channel bettwen your machina and the gates and target servers.__
 
 ## TODO
 * Remember the password?
